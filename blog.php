@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/styles.css">
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-    <title>Albúm</title>
+    <title>Blog</title>
 </head>
 <body>
     <nav class="nav">
         <div class="nav__container">
-            <a href="index.html">
+            <a href="contador.php">
                 <h1 class="nav__logo">First Year <box-icon name='calendar-heart' animation='tada' color='#fffbfb' ></box-icon></h1>
             </a>
 
@@ -21,11 +21,17 @@
             <input type="checkbox" id="menu" class="nav__input">
 
             <div class="nav__menu">
-                <a href="album.html" class="nav__item check">album</a>
-                <a href="blog.html" class="nav__item">blog</a>
-                <a href="aboutU.html" class="nav__item ">about u</a>
+                <a href="contador.php" class="nav__item">Contador</a>
+                <a href="album.php" class="nav__item check">album</a>
+                <a href="blog.php" class="nav__item">blog</a>
+                <a href="aboutU.php" class="nav__item ">about u</a>
             </div>
         </div>
     </nav>
+    <main>
+        <div class="texto__deslizante">
+            <marquee><h3>🤍 Proximamente 🤍 Proximamente 🤍 Proximamente 🤍 Proximamente 🤍 Proximamente 🤍 Proximamente 🤍</h3> </marquee>
+        </div>
+    </main>
 </body>
 </html>

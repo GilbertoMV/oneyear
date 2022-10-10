@@ -13,7 +13,14 @@
     --fuentePrincipal: 'Poppins', sans-serif;
     --fuentePixel: 'Silkscreen', sans-serif;
 }
-
+.text-alert {
+    font-family:var(--fuentePrincipal);
+}
+.input-alert {
+    background-color: #ffff;
+    text-align: center;
+    font-weight: 900;
+}
 * {
     box-sizing: border-box;
     margin: 0;
