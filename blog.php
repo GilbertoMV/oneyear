@@ -21,9 +21,9 @@
             <input type="checkbox" id="menu" class="nav__input">
 
             <div class="nav__menu">
-                <a href="contador.php" class="nav__item">Contador</a>
-                <a href="album.php" class="nav__item check">album</a>
-                <a href="blog.php" class="nav__item">blog</a>
+                <a href="contador.php" class="nav__item">counter</a>
+                <a href="album.php" class="nav__item">album</a>
+                <a href="blog.php" class="nav__item check">blog</a>
                 <a href="aboutU.php" class="nav__item ">about u</a>
             </div>
         </div>
@@ -33,5 +33,10 @@
             <marquee><h3>🤍 Proximamente 🤍 Proximamente 🤍 Proximamente 🤍 Proximamente 🤍 Proximamente 🤍 Proximamente 🤍</h3> </marquee>
         </div>
     </main>
+
+    <!-- ALERTS -->
+    <script src="sweetalert2.all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="assets/js/alertBlog.js"></script>
 </body>
 </html>

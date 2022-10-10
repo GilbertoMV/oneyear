@@ -21,8 +21,8 @@
             <input type="checkbox" id="menu" class="nav__input">
 
             <div class="nav__menu">
-                <a href="contador.php" class="nav__item">Contador</a>
-                <a href="album.php" class="nav__item check">album</a>
+                <a href="contador.php" class="nav__item check">counter</a>
+                <a href="album.php" class="nav__item">album</a>
                 <a href="blog.php" class="nav__item">blog</a>
                 <a href="aboutU.php" class="nav__item ">about you</a>
             </div>
@@ -31,22 +31,29 @@
     <div class="contenedor__contador">
         
         <div class="texto__deslizante">
-            <marquee><h3>🤍 Yo más 🤍 Yo más 🤍 Yo más 🤍 Yo más 🤍 Yo más 🤍 Yo más 🤍</h3></marquee>
+            <marquee><h3>🤍 yo más 🤍 yo más 🤍 yo más 🤍 yo más 🤍 yo más 🤍 yo más 🤍</h3></marquee>
         </div>
             <div class="contador__textos">
-                <h1>"Un año", "12 meses"</h1>
+                <h1>"un año", "12 meses"</h1>
                 <h3>
-                    Es cómo contestarías si hoy te preguntan "¿Cuánto llevan?" <br> Pero es muy poco exacto ¿no crees? Mejor muestrales el siguiente contador 
+                    es cómo contestarías si hoy te preguntan "¿Cuánto llevan?" <br> pero es muy poco exacto ¿no crees? Mejor muestrales el siguiente contador 
                 </h3>
             </div>
             <div id="contador" class="contador">
                 <!-- CONTADOR -->
             </div>
             <div class="contador__textos">
-                <h3> ♡ Al igual que este contador aumenta, mi amor por ti lo hace también, te amo mi vida ♡</h3>
+                <h3> ♡ al igual que este contador aumenta, mi amor por ti lo hace también, te amo mi vida ♡</h3>
             </div>
     </div>
+
+
     <script src="./assets/js/simplyCountdown.min.js"></script>
     <script src="./assets/js/contador.js"></script>
+    
+    <!-- ALERTS -->
+    <script src="sweetalert2.all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="assets/js/alertContador.js"></script>
 </body>
 </html>
