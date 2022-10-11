@@ -7,15 +7,15 @@ Swal.fire({
     confirmButtonText: "pero yo más!",
     customClass: {
         container: 'text-alert',
-        input: 'input-alert'
+        input: 'input-alert',
     },
     confirmButtonColor:'#475959',
-    
+    footer:'¡Haz click en las imágenes!' 
 });
 $("#btn1").click(function(){
     Swal.fire({
         title: 'el paisaje más bonito',
-        text: 'tú, tu eres el paisaje más bonito, poder admirar tu destellos, tu risa, tus enojos, tus gestos, es lo mejor que me puedes regalar, no se que haría sino pudiera hacerlo, sino pudiera almacenar ese bello paisaje en fotografía o admirarlo de cerca',
+        text: 'tú, tu eres el paisaje más bonito, poder admirar tu luz, tu risa, tus enojos, tus gestos, es lo mejor que me puedes regalar, no se que haría sino pudiera hacerlo, mis ojos te toman muchas fotitos cada segundo corazón...',
         iconHtml: '<img src="./assets/imagenes/icon1.gif" width="150px" height="150px">',
         iconColor:'#e7ded3',
         background:"#e7ded3",
@@ -30,7 +30,7 @@ $("#btn1").click(function(){
 $("#btn2").click(function(){
     Swal.fire({
         title: 'tu cuerpo',
-        text: 'muchas veces te he escuchado hablar de lo poco que te gusta tu cuerpo, realmente desearía que pudieras verlo con mis ojos, cada centimetro de tu piel, me invita a acariciarlo, amo cada pieza que lo conforman y lo vuelvo mi tesoro día con día.',
+        text: 'Se que me dirás que no le sé, pero en serio, tu piel tan suave y brillante, tus piernas largas, tan elegantes y bellas que me fascinan, tus cuello que me incita a tomarlo con la mano y traerte para besarte, tu cintura que me provoca querer deslizar mi mano un poco más y disfrutarte completamente. Eres mi deseo, despiertas en mi lo que nadie nunca y amo tanto poder expresartelo siempre amor',
         iconHtml: '<img src="./assets/imagenes/icon2.gif" width="150px" height="150px">',
         iconColor:'#e7ded3',
         background:"#e7ded3",
@@ -45,7 +45,7 @@ $("#btn2").click(function(){
 $("#btn3").click(function(){
     Swal.fire({
         title: 'tu personalidad',
-        text: 'Adoro tu personalidad, cada acción, cada pensamiento, cada chiste, casa juego, todo lo adoro si viene de ti, no solo eres el amor de mi vida, eres la persona que mejor me cae, me rio mucho contigo,  nos reimos tanto juntos y me fascina eso, me fascina que somos amigos y novios, lo tienes todo, increible!',
+        text: 'Adoro tu personalidad, cada acción, cada pensamiento, cada chiste, casa juego, todo lo adoro si viene de ti, no solo eres el amor de mi vida, eres la persona que mejor me cae, me río mucho contigo,  nos reímos tanto juntos y me fascina eso, me fascina que somos amigos y novios, lo tienes todo, cariño',
         iconHtml: '<img src="./assets/imagenes/icon3.gif" width="150px" height="150px">',
         iconColor:'#e7ded3',
         background:"#e7ded3",
@@ -75,7 +75,7 @@ $("#btn4").click(function(){
 $("#btn5").click(function(){
     Swal.fire({
         title: 'tu ternura',
-        text: 'me encanta hablarte de "bebe", chiquearte y darte mimos, eres muy tierna, tan fria y firme con las demás personas, pero cuando estás conmigo me dejas consentirte y eso me fascina, me gusta darte lo que me pides siempre, ver tus ojos cerraditos de chiveada cuando te hablo lindo, cuido mucho esa parte de ti, amor.',
+        text: 'me encanta hablarte de "bebé", chiquearte y darte mimos, eres muy tierna, tan fría y firme con las demás personas, pero cuando estás conmigo me dejas consentirte y eso me fascina, me gusta darte lo que me pides siempre, ver tus ojos cerraditos de chiveada cuando te hablo lindo, cuido mucho esa parte de ti, amor.',
         iconHtml: '<img src="./assets/imagenes/icon5.gif" width="150px" height="150px">',
         iconColor:'#e7ded3',
         background:"#e7ded3",
@@ -90,7 +90,7 @@ $("#btn5").click(function(){
 $("#btn6").click(function(){
     Swal.fire({
         title: 'tu estilo',
-        text: 'esto es algo que casi nunca te he dicho, pero realmente me encanta tu manera de lucir lo que te pones, lo hermosa que te ves con cualquier prenda que uses, lo luces todo!, pero si algo me gusta más es la manera en que tu y yo combinamos, tu estilo tan unico al igual que tu belleza sin igual.',
+        text: 'esto es algo que casi nunca te he dicho, pero realmente me encanta tu manera de lucir lo que te pones, lo hermosa que te ves con cualquier prenda que uses, luces fabulosa con todo! pero si algo me gusta más es la manera en que tu y yo combinamos, tu estilo tan unico al igual que tu belleza sin igual.',
         iconHtml: '<img src="./assets/imagenes/icon6.gif" width="150px" height="150px">',
         iconColor:'#e7ded3',
         background:"#e7ded3",
@@ -105,7 +105,7 @@ $("#btn6").click(function(){
 $("#btn7").click(function(){
     Swal.fire({
         title: 'tus manos',
-        text: 'ooh tus finas manos son lo que más adoro tocar, lo suaves, delgadas y delicadas que son me encanta, se acoplan a las mías a la perfección, aún recuerdo la primera vez que tu mano tomó la mía, desde ese entonces no me interesa soltarla nunca.',
+        text: 'ooh tus finas manos son lo que más adoro tocar, lo suaves, delgadas y delicadas que son me encanta, se acoplan a las mías a la perfección, aún recuerdo la primera vez que tu mano tomó la mía, desde ese entonces no me interesa soltarla nunca jamás...',
         iconHtml: '<img src="./assets/imagenes/icon7.gif" width="150px" height="150px">',
         iconColor:'#e7ded3',
         background:"#e7ded3",
@@ -135,7 +135,7 @@ $("#btn8").click(function(){
 $("#btn9").click(function(){
     Swal.fire({
         title: 'tus labios',
-        text: 'tu dulce boca, el unico sabor dulce que realmente disfruto al 100%, tu lindos labios, no hay otros que quiera besar, las marcas que dejan en mi cuando me besas, no son visibles solamente, daría todo por que tu labios me besaran nuevamente',
+        text: 'tu dulce boca, el unico sabor dulce que realmente disfruto al 100%, tu lindos labios, no hay otros que quiera besar, las marcas que dejan en mi cuando me besas, no son visibles solamente, daría todo por que tu labios me besaran nuevamente.',
         iconHtml: '<img src="./assets/imagenes/icon9.gif" width="150px" height="150px">',
         iconColor:'#e7ded3',
         background:"#e7ded3",
@@ -165,7 +165,7 @@ $("#btn10").click(function(){
 $("#btn11").click(function(){
     Swal.fire({
         title: 'tu sonrisa',
-        text: 'vivo por tu sonrisa y moriria por ella, verte sonreir es la razón de todo lo que hago con amor por ti, si tu sonrisa se borra por mi culpa me siento pesimo y es por eso que siempre intento que muestres esa sonrisa, es tan hermoso cuando sonries o ries por placer, daría todo lo que soy por verte sonreir siempre amor mio.',
+        text: 'vivo por tu sonrisa y moriría por ella, verte sonreir es la razón de todo lo que hago con amor por ti, si tu sonrisa se borra por mi culpa me siento pesimo y es por eso que siempre intento que muestres esa sonrisa, es tan hermoso cuando sonries o ries por placer, daría todo lo que soy por verte sonreir siempre amor mío.',
         iconHtml: '<img src="./assets/imagenes/icon11.gif" width="150px" height="150px">',
         iconColor:'#e7ded3',
         background:"#e7ded3",
@@ -180,7 +180,7 @@ $("#btn11").click(function(){
 $("#btn12").click(function(){
     Swal.fire({
         title: 'tu dedicación',
-        text: 'Siempre te he dicho lo mucho que te admiro, la manera en la que haces las cosas siempre firme a tus objetivos, lo atractiva que eres cuando te decides a hacer algo y dejas todo por que te salgan las cosa bien, me encanta lo trabajadora que eres y todo el esfuerzo y cariño que le pones a todo lo que haces.',
+        text: 'Siempre te he dicho lo mucho que te admiro, la manera en la que haces las cosas siempre firme a tus objetivos, lo atractiva que eres cuando te decides a hacer algo y dejas todo por que te salgan las cosa bien, me encanta lo trabajadora que eres y todo el esfuerzo y cariño que le pones a todo lo que haces, aprendo de ti mientras me enamoro más...',
         iconHtml: '<img src="./assets/imagenes/icon12.gif" width="150px" height="150px">',
         iconColor:'#e7ded3',
         background:"#e7ded3",
@@ -195,7 +195,7 @@ $("#btn12").click(function(){
 $("#btn13").click(function(){
     Swal.fire({
         title: 'tus orejitas',
-        text: 'Son sensibles, son pequeñas y quedan muy bien con tu bello rostro, me encanta hablarles de cerca y ver como tu piel se enchina, me encanta lo suabes y lindas que son, acariciarlas me gusta aunque deba detenerme dependiendo la ocasión, que sean capaces de escuchar el amor que te tengo, me tienes muy enamorado!',
+        text: 'Son sensibles, son pequeñas y quedan muy bien con tu bello rostro, me encanta hablarles de cerca y ver como tu piel se enchina, me encanta lo suaves y lindas que son, acariciarlas me gusta aunque deba detenerme dependiendo la ocasión, que sean capaces de escuchar el amor que te tengo, me tienes muy enamorado!',
         iconHtml: '<img src="./assets/imagenes/icon13.gif" width="150px" height="150px">',
         iconColor:'#e7ded3',
         background:"#e7ded3",
@@ -225,7 +225,7 @@ $("#btn14").click(function(){
 $("#btn15").click(function(){
     Swal.fire({
         title: 'tu fino cuello',
-        text: 'cuando decides lucir tu cuello recogiendo tu hermoso cabello, me encanta, tu cuello me encanta, es tan elegante, fino y delgado que resalta mucho tu belleza, eres tan pequeñita a mis ojos que me parece muy tierno y hermoso, te hace ver inofensiva y poderosa a la vez, me gusta mucho como adornas con collares bonitos auqnue por si solo es bello, amo tu cuellito tan hermoso que me pide besos tiernos y sencibles...',
+        text: 'cuando decides lucir tu cuello recogiendo tu hermoso cabello, me encanta, tu cuello me encanta, es tan elegante, fino y delgado que resalta mucho tu belleza, eres tan pequeñita a mis ojos que me parece muy tierno y hermoso, te hace ver inofensiva y poderosa a la vez, me gusta mucho como lo adornas con collares bonitos aunque por si solo es bello, amo tu cuellito tan hermoso que me pide besos tiernos y sensibles...',
         iconHtml: '<img src="./assets/imagenes/icon15.gif" width="150px" height="150px">',
         iconColor:'#e7ded3',
         background:"#e7ded3",
