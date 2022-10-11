@@ -212,7 +212,7 @@ box-icon {
 /* ABOUT U */
 .aboutU {
     display: flex;
-    width: 100%;
+    width: 95%;
     height: auto;
     
     margin: auto;
@@ -255,7 +255,6 @@ box-icon {
     grid-column:2/4;
 }
 .footer {
-    
     grid-column: 1/4;
 }
 .grid_img {

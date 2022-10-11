@@ -4,7 +4,7 @@ Swal.fire({
         icon: "info",
         iconColor:'#475959',
         input: "text",
-        inputPlaceholder:'escriba aquí la contraseña por favor',
+        inputPlaceholder:'escriba aquí la contraseña',
         background:"#e7ded3",
         backdrop: `#475959`,
         customClass: {
