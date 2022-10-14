@@ -46,8 +46,10 @@ a {
     font-family: var(--fuentePrincipal);
     font-weight: 900;
 }
-.nav {
+nav {
     position: fixed;
+    top: 0;
+    left: 0;
     background: var(--colorPrincipal);
     color: var(--colorBlanco);
     height: 80px;
@@ -141,7 +143,7 @@ box-icon {
     align-items: center;
     width: 100%;
     height: 100%;
-    top: 80px;
+    margin-top: 80px;
 }
 .contador__textos {
     padding-top: 20px;
@@ -222,7 +224,6 @@ main {
     width: 95%;
     height: auto;
     margin: auto;
-    padding-bottom: 1rem;
     flex-direction: column;
 }
 @media(min-width:700px) {
@@ -240,6 +241,7 @@ main {
     width: 100%;
     height: auto;
     margin-bottom: 15px;
+    margin-top: 80px;
 }
 .bloque {
     display: grid;  
@@ -375,6 +377,7 @@ main {
     width: 100%;
     height: auto;
     background-color: var(--colorFondo);
+    margin-top: 80px;
 }
 .imggrid {
     width: 100%;
@@ -405,7 +408,7 @@ main {
 /* ROW2 */
 .row2 {
     display: grid;
-    grid-template-columns: 33.33333% 33.33333% 33.33333%;
+    grid-template-columns: repeat(3,1fr);
     width: 100%;
     height: 100%;
 }
@@ -415,6 +418,7 @@ main {
     grid-template-columns: 100%;
     width: 100%;
     height: 100px;
+    height: 100%;
 }
 .row4 {
     display: grid;
@@ -426,7 +430,6 @@ main {
     display: grid;
     grid-template-rows: 66% auto;
     width: 100%;
-    gap: 10px;
     height: 100%;
 }
 .row5 {
