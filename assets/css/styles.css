@@ -11,6 +11,9 @@
     --colorBlanco:#FFF;
     --colorDorado: #EAC102;
     --colorD:#fe967d;
+    --colorFoto:rgb(35, 100, 26);
+    --colorTexto:rgb(59, 57, 57);
+    --colorFondo: #34420e;
     --fuentePrincipal: 'Poppins', sans-serif;
     --fuentePixel: 'Silkscreen', sans-serif;
 }
@@ -44,9 +47,11 @@ a {
     font-weight: 900;
 }
 .nav {
+    position: fixed;
     background: var(--colorPrincipal);
     color: var(--colorBlanco);
     height: 80px;
+    width: 100%;
 }
 .nav__container {
     display: flex;
@@ -136,6 +141,7 @@ box-icon {
     align-items: center;
     width: 100%;
     height: 100%;
+    top: 80px;
 }
 .contador__textos {
     padding-top: 20px;
@@ -211,7 +217,7 @@ box-icon {
 /* ----------- cuenta regresiva ----------- */
 
 /* ABOUT U */
-.aboutU {
+main {
     display: flex;
     width: 95%;
     height: auto;
@@ -224,7 +230,7 @@ box-icon {
         width: 80%;
     }
 }
-.aboutU img, button{
+.bloque img, button{
     border-radius: 10px;
     border: double 5px var(--colorD);
     padding: 2px;
@@ -361,3 +367,90 @@ box-icon {
     background-size: cover;
 }
 /* FIN ABOUT U */
+
+/* COMIENZO ALBUM */
+.a {
+    display: grid;
+    grid-template-rows: 100%;
+    width: 100%;
+    height: auto;
+    background-color: var(--colorFondo);
+}
+.imggrid {
+    width: 100%;
+    height: 100%;
+}
+.row1 {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    width: 100%;
+    height: 100%;
+}
+.row1__columna2 {
+    display: grid;
+    grid-template-rows: 40% 60%;
+    width: 100%;
+    height: 100%;
+}
+.contenedor_textos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--fuentePrincipal);
+    font-size: 10px;
+    color: var(--colorSecundario);
+    text-align: center;
+    padding: 10px;
+}
+/* ROW2 */
+.row2 {
+    display: grid;
+    grid-template-columns: 33.33333% 33.33333% 33.33333%;
+    width: 100%;
+    height: 100%;
+}
+/* ROW3 */
+.row3 {
+    display: grid;
+    grid-template-columns: 100%;
+    width: 100%;
+    height: 100px;
+}
+.row4 {
+    display: grid;
+    grid-template-columns: 70% auto;
+    width: 100%;
+    height: 100%;
+}
+.row4_columna2 {
+    display: grid;
+    grid-template-rows: 66% auto;
+    width: 100%;
+    gap: 10px;
+    height: 100%;
+}
+.row5 {
+    display: grid;
+    grid-template-columns: 50% auto;
+    width: 100%;
+    height: auto;
+
+}
+.row6 {
+    display: grid;
+    grid-template-columns: 30% auto;
+    width: 100%;
+    height: 100%;
+}
+.row7 {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 100%;
+    height: 100%;
+}
+.row8 {
+    display: grid;
+    width: 100%;
+    height: 100%;
+}
+/* FIN ALBUM */
