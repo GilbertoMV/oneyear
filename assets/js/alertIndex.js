@@ -3,7 +3,7 @@ Swal.fire({
         text: "digite la contraseña para seguir",
         icon: "info",
         iconColor:'#475959',
-        input: "text",
+        input: "password",
         inputPlaceholder:'escriba aquí la contraseña',
         background:"#e7ded3",
         backdrop: `#475959`,
