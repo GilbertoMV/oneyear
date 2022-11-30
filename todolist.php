@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
-    <title>To-Do</title>
+    <title>To Do List</title>
 </head>
 <body>
     <?php require 'nav.html'?>
@@ -38,20 +38,21 @@
                     </div>
                 </div>
             <?php } ?>
-
             <?php while($todo = $todos->fetch(PDO::FETCH_ASSOC)) { ?>
                 <div class="todo-item">
-                    <span id="<?php echo $todo['id']; ?>" class="remove-to-do">x</span>
+                <span id="<?php echo $todo['id']; ?>"
+                          class="remove-to-do">x</span>
                     <?php if($todo['checked']){ ?> 
-                        <input type="checkbox" class="check-box" data-todo-id ="<?php echo $todo['id']; ?>" checked />
+                        <input type="checkbox"
+                               class="check-box"
+                               data-todo-id ="<?php echo $todo['id']; ?>"
+                               checked />
                         <h2 class="checked"><?php echo $todo['title'] ?></h2>
                     <?php }else { ?>
-                        
-                        <div class="toggle-rect-color">
-                            <input type="checkbox" id="rect3" name="check" data-todo-id ="<?php echo $todo['id']; ?>">
-                            <label for="rect3"></label>
-                            <h2><?php echo $todo['title'];?></h2>
-                        </div>
+                        <input type="checkbox"
+                               data-todo-id ="<?php echo $todo['id']; ?>"
+                               class="check-box" />
+                        <h2><?php echo $todo['title'] ?></h2>
                     <?php } ?>
                     <small>Planeado el: <?php echo $todo['date_time'] ?></small> 
                 </div>
